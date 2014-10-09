@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+canvas {
+	border: 1px solid black;
+	background-color: black;
+}
+</style>
+
+<!-- 
+
+<script type="text/javascript" src="global.js"></script>
+
+<script type="text/javascript" src="color.js"></script>
+<script type="text/javascript" src="layerMovement.js"></script>
+<script type="text/javascript" src="selectionCriteria.js"></script>
+<script type="text/javascript" src="move.js"></script>
+<script type="text/javascript" src="atom.js"></script>
+<script type="text/javascript" src="center.js"></script>
+<script type="text/javascript" src="edge.js"></script>
+<script type="text/javascript" src="corner.js"></script>
+<script type="text/javascript" src="movesequence.js"></script>
+<script type="text/javascript" src="side.js"></script>
+<script type="text/javascript" src="cube.js"></script>
+<script type="text/javascript" src="cubeDisplay.js"></script>
+<script type="text/javascript" src="point.js"></script>
+<script type="text/javascript" src="MoveFinder.js"></script>
+ -->
+ 
+<script type="application/javascript">
+console.log('1' + '2');
+console.log('1' + 2);
+console.log(1 + '2');
+console.log(1 +  +'2');
+
+console.log(typeof 1)
+console.log(typeof 'a')
+
+var obj1 = { a : 5, b : 6};
+
+console.log( obj1.a );
+
+Object.seal(obj1);
+
+obj1.a = "hello";
+
+console.log( obj1.a );
+
+obj1.c = 8;
+
+console.log( obj1.c );
+
+console.log(Object.isSealed(obj1));
+
+console.log("---")
+
+point = { x : 100, y : 200 };
+console.log(point.x)   // 100
+console.log(point['x'])  // 100
+
+ap = { "x-coord" : 100, "y-coord" : 200 };
+//console.log(ap.x-coord)    // Error, - means subtraction
+console.log(ap["x-coord"]) // 100
+
+console.log(ap["X-coord"]) // 100
+
+sides1 = ['f', 'l', 'u'];
+console.log(sides1 instanceof Array)
+
+sides2 = new Array ('f', 'l', 'u');
+console.log(sides2 instanceof Array)
+
+
+/*--
+"use strict";
+
+function log(expression) {
+	console.log(expression + ": " + eval(expression));
+}
+
+var literalString = "literal string";
+
+log( "Object.prototype.toString.call(literalString)");
+
+var objString = new String("String object");
+
+log( "Object.prototype.toString.call(objString)");
+
+var side = Rubik.Side.FRONT;
+
+log("typeof side");
+
+log("side.constructor.name" );
+
+log("Object.prototype.toString.call(side)");
+--*/
+</script>
+</head>
+
+<body>
+</body>

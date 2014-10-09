@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Rubik Cube</title>
+
+<link rel="stylesheet" type="text/css" href="rubikstyle.css" media="screen" />
+
+<script type="application/javascript">
+"use strict";
+</script>
+
+<script type="text/javascript" src="global.js"></script>
+
+<script type="text/javascript" src="color.js"></script>
+<script type="text/javascript" src="layerMovement.js"></script>
+<script type="text/javascript" src="selectionCriteria.js"></script>
+<script type="text/javascript" src="move.js"></script>
+<script type="text/javascript" src="atom.js"></script>
+<script type="text/javascript" src="center.js"></script>
+<script type="text/javascript" src="edge.js"></script>
+<script type="text/javascript" src="corner.js"></script>
+<script type="text/javascript" src="movesequence.js"></script>
+<script type="text/javascript" src="side.js"></script>
+<script type="text/javascript" src="cube.js"></script>
+<script type="text/javascript" src="cubeDisplay.js"></script>
+<script type="text/javascript" src="point.js"></script>
+<script type="text/javascript" src="MoveFinder.js"></script>
+<script type="text/javascript" src="RCException.js"></script>
+
+<script type="application/javascript">
+
+    var cube;
+
+    var ui;   
+
+    function draw() {
+      
+		var canvas = document.getElementById('myCanvas');
+
+       	if (canvas.getContext) {
+    	  
+			canvas.addEventListener("mousedown", doMouseDown, false);
+    		canvas.addEventListener("mouseup", doMouseUp, false);
+
+		    var height = canvas.height;
+		    var width = canvas.width;
+		    
+		    var margin = height/25;
+		    var hvSize = (height - margin*2) * 2 / 3;
+		    var fluPosX = margin;
+		    var fluPosY = margin + (hvSize/2);
+       
+        	cube = new Rubik.Cube();
+
+        	//canvas, fluPosX, fluPosY, hvSize, slantRatio, anglePerspective, gap
+        	//ui = new Rubik.CubeDisplay(canvas, 20, 180, 300, 0.75, 45, 1);   
+			ui = new Rubik.CubeDisplay(canvas, fluPosX, fluPosY, hvSize, 0.75, 45, 1);
+        	ui.draw(cube);
+      } else {
+    	  	alert("canvas is not supported by this browser")
+      }
+
+      function doMouseDown(event) {
+          ui.doMouseDown(event);
+      }
+
+      function doMouseUp(event) {
+          var move = ui.doMouseUp(event);
+          if ( move != Rubik.Move.NONE ) {
+		    cube.move( move );
+			redrawAfterMove()
+          }
+      }
+    } 
+
+    function undoLastMove() {
+        cube.undoLastMove();
+        redrawAfterMove()
+    }
+
+	function redrawAfterMove() {
+		var status = cube.computeTransformation().toString();
+		updateStatus(status);
+
+   	    ui.draw(cube);
+	}
+
+    function findMoves() {
+    	
+    	var edgesMoved = +document.getElementById("edgesMoved").value;
+    	var cornersMoved = +document.getElementById("cornersMoved").value;
+    	var centersMoved = +document.getElementById("centersMoved").value;
+    	var allInOneSide = document.getElementById("allInOneSide").checked;
+    	
+        new Rubik.MoveFinder()
+        		.sequenceLength         (+document.getElementById("sequenceLength").value)
+        		.maxSequencesToFind (+document.getElementById("maxSequences").value)
+        		.moveOnlyOuterLayer         (document.getElementById("moveOnlyOuter").checked)
+        		.restrictSecondHalfMoves     (document.getElementById("restrictSecondHalf").checked)
+        		.verifier( new Rubik.SelectionCriteria(Rubik.Edge, edgesMoved, allInOneSide).verifier() )
+        		.verifier( new Rubik.SelectionCriteria(Rubik.Corner, cornersMoved, allInOneSide).verifier() )
+        		.verifier( new Rubik.SelectionCriteria(Rubik.Center, centersMoved, allInOneSide).verifier() )
+
+        		.find();
+
+        updateStatus("Done!");
+    }
+
+    function findEdgeMoves() {
+        new Rubik.MoveFinder(4, 
+			[
+				new Rubik.SelectionCriteria(Rubik.Edge, 3).verifier()
+			],
+			false,
+			true)
+       .find();
+
+        updateStatus("Done!");
+    }
+   
+    function findCornerMoves() {
+        new Rubik.MoveFinder(8, 
+			[
+				new Rubik.SelectionCriteria(Rubik.Corner, 3).verifier()
+			],
+			true,
+			true)
+       .find();
+
+        updateStatus("Done!");
+    }
+
+
+    
+	function onLoad() {
+		draw();
+	}
+
+    function updateStatus(status) {
+		console.log(status);
+		document.getElementById("status").value += status;
+
+		var statusArea = document.getElementById("status");
+		statusArea.scrollTop = statusArea.scrollHeight;
+
+	}
+
+	function execute() {
+		var executeTextArea = document.getElementById("commandTA");
+
+	    cube.move( executeTextArea.value );
+		redrawAfterMove();
+		executeTextArea.value = ""
+	}
+
+	function reset() {
+		cube.reset();
+		ui.draw(cube);
+	}
+ </script>
+
+
+</head>
+<body onLoad="onLoad();">
+
+<table>
+    <tr>
+        <td>
+			<canvas id="myCanvas" width="1100" height="500"></canvas>
+        </td>
+        <td>
+   	       	<div class="command">Find move sequences:</div><br>
+            <table>
+            	<tr>
+            		<td><div class="label">Length Of Sequence&nbsp;&nbsp;</div></td>
+            		<td><input type="text" id="sequenceLength" value="4" size="4" min="1" max="20" step="1"></td>
+            	</tr>
+            	<tr>
+            		<td><div class="label">Stop After Finding</div></td>
+            		<td><input type="text" id="maxSequences"  value="1"  size="4" min="1" max="9999" step="1"></td>
+            	</tr>
+            	<tr>
+            		<td><div class="label">Max Edges Moving</div></td>
+            		<td><input type="text" id="edgesMoved" value=3  size="4" min="0" max="12" step="1"></td>
+            	</tr>
+            	<tr>
+            		<td><div class="label">Max Corners Moving</div></td>
+            		<td><input type="text" id="cornersMoved" value=0  size="4" min="0" max="8" step="1"></td>
+            	</tr>
+            	<tr>
+            		<td><div class="label">Max Centers Moving</div></td>
+            		<td><input type="text" id="centersMoved" value=0  size="4" min="0" max="8" step="1"></td>
+            	</tr>
+            	
+            	
+            	
+            </table>
+   	       	<!-- 
+   	       	<div class="label">Length: <input type="text" name="seqLen"></div><br>
+   	       	<div class="label">Stop after: <input type="text" name="maxSequences"></div><br>
+   	      	<div class="label">Max Edge movements: <input type="text" name="edgesMoved"></div><br>
+   	       	<div class="label">Max Corners movements: <input type="text" name="edgesMoved"></div><br>
+ 			-->
+ 			<br>
+   	       	<div class="label"><input type="checkbox" id="allInOneSide" checked>All move in one side</div><br>
+   	       	<div class="label"><input type="checkbox" id="restrictSecondHalf" checked>Restrict Second Half</div><br>
+			<div class="label"><input type="checkbox" id="moveOnlyOuter">Move Only Outer</div><br> 
+			<div align="center"><button type="button" onclick="findMoves();">Start</button></div>
+           <!-- 
+   	       <button type="button" onclick="findEdgeMoves();">For Edges Moves</button>
+   	       <button type="button" onclick="findCornerMoves();">For Corners</button>
+           -->
+			<hr>
+			<div class="command">Enter moves:</div> 
+			<textarea id="commandTA" rows="2" cols="40"></textarea>
+			<br>
+			<button type="button" onclick="execute();">Execute</button>
+			<button type="button" onclick="undoLastMove();">Undo</button> 
+			<button type="button" onclick="reset();">Reset</button> 
+
+        </td>
+    </tr>
+    <tr>
+    	<td>	<textarea id="status" rows="10" cols="70" readonly></textarea> </td>
+
+    	<td>(V'F2VF2) ==> [ fu -> bu -> fd -> fu ]
+	    	<p>(RFBU2F2U'FUFU2B'R'F') ==>[ fr -> rf ] [ fu -> uf ]
+	    	<p>(LFDF'D'L') ==>[ fru -> fdr -> ufr ] [ flu -> fdl -> ufl ] [ fr -> fd -> lf -> fr ]
+	    	<p>(R'D'LD RD'L'D) ==>  [ fru -> drf -> ful -> fru ]
+	    	<p>(RF'L'FR'F'LF) ==> [ fru -> lfu -> drf -> fru ]
+	    	<p>(R'D'LD RD'L'DRF'L'FR'F'LF) ==> [ dfr -> rdf ] [ flu -> luf ]
+    	</td>
+    </tr>
+
+</table>
+
+
+
+</body>
+</html>

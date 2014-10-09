@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<script type="application/javascript">
+	
+	
+	
+	
+	
+	
+	
+//"use strict";
+
+
+
+
+
+
+
+</script>
+
+<script type="text/javascript" src="global.js"></script>
+
+<script type="text/javascript" src="color.js"></script>
+<script type="text/javascript" src="layerMovement.js"></script>
+<script type="text/javascript" src="selectionCriteria.js"></script>
+<script type="text/javascript" src="move.js"></script>
+<script type="text/javascript" src="atom.js"></script>
+<script type="text/javascript" src="center.js"></script>
+<script type="text/javascript" src="edge.js"></script>
+<script type="text/javascript" src="corner.js"></script>
+<script type="text/javascript" src="movesequence.js"></script>
+<script type="text/javascript" src="side.js"></script>
+<script type="text/javascript" src="cube.js"></script>
+<script type="text/javascript" src="cubeDisplay.js"></script>
+<script type="text/javascript" src="point.js"></script>
+<script type="text/javascript" src="MoveFinder.js"></script>
+
+<script type="application/javascript">
+	
+    var cube;
+
+    var ui;   
+
+    function draw() {
+      
+      var canvas = document.getElementById('my_canvas');
+
+      canvas.addEventListener("mousedown", doMouseDown, false);
+	  canvas.addEventListener("mouseup", doMouseUp, false);
+
+      if (canvas.getContext) {
+       
+        cube = new Rubik.Cube(3);
+
+        //canvas, fluPosX, fluPosY, hvSize, slantRatio, anglePerspective, gap
+        ui = new Rubik.CubeDisplay(canvas, 20, 180, 300, 0.75, 45, 1);   
+
+        ui.draw(cube);
+      }
+
+      function doMouseDown(event) {
+          ui.doMouseDown(event);
+      }
+
+      function doMouseUp(event) {
+          var move = ui.doMouseUp(event);
+          if ( move != Rubik.Move.NONE ) {
+		    cube.move( move );
+			redrawAfterMove()
+          }
+      }
+    } 
+
+    function undoLastMove() {
+        cube.undoLastMove();
+        redrawAfterMove()
+    }
+
+	function redrawAfterMove() {
+		var status = cube.computeTransformation().toString();
+		updateStatus(status);
+
+   	    ui.draw(cube);
+	}
+
+    function findMoves() {
+        var moveFinder = new Rubik.MoveFinder(8, 
+			[
+			    new Rubik.SelectionCriteria(Rubik.Corner, 8).verifier()
+				//new Rubik.SelectionCriteria(Rubik.Edge, 3).verifier()
+			],
+			true,
+			true);
+
+        moveFinder.find();
+        updateStatus("Done!");
+    }
+
+	function onLoad() {
+		draw();
+	}
+
+    function updateStatus(status) {
+		console.log(status);
+		document.getElementById("status").value += status;
+
+		var statusArea = document.getElementById("status");
+		statusArea.scrollTop = statusArea.scrollHeight;
+
+	}
+
+	function execute() {
+		var executeTextArea = document.getElementById("commandTA");
+
+	    cube.move( executeTextArea.value );
+		redrawAfterMove();
+		executeTextArea.value = ""
+	}
+
+	function reset() {
+		cube.reset();
+		ui.draw(cube);
+	}
+ 
+
+
+
+
+
+
+</script>
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body onLoad="onLoad();">
+
+	<div id="wrapper">
+
+		<div id="left_container">
+
+			<canvas id="my_canvas"></canvas>
+			
+			<div id="move_log_container">
+
+				<label class="command">Moves Log:</label>
+				<textarea id="commandTA"></textarea>
+
+			</div>
+
+		</div>
+    
+ 		<div id="right_container">
+
+			<div id="moves_container">
+			
+				<label class="command">Enter moves:</label>
+				<textarea id="commandTA" rows="2" cols="40"></textarea>
+
+				<button class="move_button" id="execute_button" type="button" onclick="execute();">Execute</button>
+
+				<button class="move_button" type="button" onclick="undoLastMove();">Undo</button>
+				<button class="move_button" type="button" onclick="reset();">Reset</button>
+				<button class="move_button" type="button" onclick="findMoves();">Find Moves</button>
+
+			</div>
+
+		</div>
+
+
+	</div>
+
+</body>
+</html>

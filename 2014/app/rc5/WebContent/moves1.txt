@@ -1,0 +1,1112 @@
+Found a move: Time: 382 milliseconds MoveFinder.js:84
+(R2HR2H') ==>
+    [ fr -> br -> fl -> fr ]
+ MoveFinder.js:85
+Found a move: Time: 401 milliseconds MoveFinder.js:84
+(R2H'R2H) ==>
+    [ fr -> bl -> br -> fr ]
+ MoveFinder.js:85
+Found a move: Time: 440 milliseconds MoveFinder.js:84
+(R2SR2S') ==>
+    [ dr -> ul -> ur -> dr ]
+ MoveFinder.js:85
+Found a move: Time: 459 milliseconds MoveFinder.js:84
+(R2S'R2S) ==>
+    [ dr -> ur -> dl -> dr ]
+ MoveFinder.js:85
+Found a move: Time: 967 milliseconds MoveFinder.js:84
+(L2HL2H') ==>
+    [ br -> bl -> fl -> br ]
+ MoveFinder.js:85
+Found a move: Time: 984 milliseconds MoveFinder.js:84
+(L2H'L2H) ==>
+    [ fr -> fl -> bl -> fr ]
+ MoveFinder.js:85
+Found a move: Count: 7 Time: 1.021 seconds MoveFinder.js:84
+(L2SL2S') ==>
+    [ dr -> dl -> ul -> dr ]
+ MoveFinder.js:85
+Found a move: Count: 8 Time: 1.04 seconds MoveFinder.js:84
+(L2S'L2S) ==>
+    [ ru -> lu -> ld -> ru ]
+ MoveFinder.js:85
+Found a move: Count: 9 Time: 1.592 seconds MoveFinder.js:84
+(U2VU2V') ==>
+    [ fu -> bu -> fd -> fu ]
+ MoveFinder.js:85
+Found a move: Count: 10 Time: 1.61 seconds MoveFinder.js:84
+(U2V'U2V) ==>
+    [ fu -> bd -> bu -> fu ]
+ MoveFinder.js:85
+Found a move: Count: 11 Time: 1.619 seconds MoveFinder.js:84
+(U2SU2S') ==>
+    [ ru -> ld -> lu -> ru ]
+ MoveFinder.js:85
+Found a move: Count: 12 Time: 1.636 seconds MoveFinder.js:84
+(U2S'U2S) ==>
+    [ dr -> ur -> ul -> dr ]
+ MoveFinder.js:85
+Found a move: Count: 13 Time: 2.169 seconds MoveFinder.js:84
+(D2VD2V') ==>
+    [ bu -> bd -> fd -> bu ]
+ MoveFinder.js:85
+Found a move: Count: 14 Time: 2.186 seconds MoveFinder.js:84
+(D2V'D2V) ==>
+    [ fu -> fd -> bd -> fu ]
+ MoveFinder.js:85
+Found a move: Count: 15 Time: 2.195 seconds MoveFinder.js:84
+(D2SD2S') ==>
+    [ dr -> dl -> ur -> dr ]
+ MoveFinder.js:85
+Found a move: Count: 16 Time: 2.211 seconds MoveFinder.js:84
+(D2S'D2S) ==>
+    [ dr -> ul -> dl -> dr ]
+ MoveFinder.js:85
+Found a move: Count: 17 Time: 2.716 seconds MoveFinder.js:84
+(F2HF2H') ==>
+    [ fr -> bl -> fl -> fr ]
+ MoveFinder.js:85
+Found a move: Count: 18 Time: 2.733 seconds MoveFinder.js:84
+(F2H'F2H) ==>
+    [ fr -> fl -> br -> fr ]
+ MoveFinder.js:85
+Found a move: Count: 19 Time: 2.742 seconds MoveFinder.js:84
+(F2VF2V') ==>
+    [ fu -> bd -> fd -> fu ]
+ MoveFinder.js:85
+Found a move: Count: 20 Time: 2.76 seconds MoveFinder.js:84
+(F2V'F2V) ==>
+    [ fu -> fd -> bu -> fu ]
+ MoveFinder.js:85
+Found a move: Count: 21 Time: 3.304 seconds MoveFinder.js:84
+(B2HB2H') ==>
+    [ fr -> br -> bl -> fr ]
+ MoveFinder.js:85
+Found a move: Count: 22 Time: 3.321 seconds MoveFinder.js:84
+(B2H'B2H) ==>
+    [ br -> fl -> bl -> br ]
+ MoveFinder.js:85
+Found a move: Count: 23 Time: 3.329 seconds MoveFinder.js:84
+(B2VB2V') ==>
+    [ fu -> bu -> bd -> fu ]
+ MoveFinder.js:85
+Found a move: Count: 24 Time: 3.346 seconds MoveFinder.js:84
+(B2V'B2V) ==>
+    [ bu -> fd -> bd -> bu ]
+ MoveFinder.js:85
+Found a move: Count: 25 Time: 3.603 seconds MoveFinder.js:84
+(HR2H'R2) ==>
+    [ fr -> fl -> br -> fr ]
+ MoveFinder.js:85
+Found a move: Count: 26 Time: 3.637 seconds MoveFinder.js:84
+(HL2H'L2) ==>
+    [ br -> fl -> bl -> br ]
+ MoveFinder.js:85
+Found a move: Count: 27 Time: 3.728 seconds MoveFinder.js:84
+(HF2H'F2) ==>
+    [ fr -> fl -> bl -> fr ]
+ MoveFinder.js:85
+Found a move: Count: 28 Time: 3.753 seconds MoveFinder.js:84
+(HB2H'B2) ==>
+    [ fr -> bl -> br -> fr ]
+ MoveFinder.js:85
+Found a move: Count: 29 Time: 4.026 seconds MoveFinder.js:84
+(H'R2HR2) ==>
+    [ fr -> br -> bl -> fr ]
+ MoveFinder.js:85
+Found a move: Count: 30 Time: 4.051 seconds MoveFinder.js:84
+(H'L2HL2) ==>
+    [ fr -> bl -> fl -> fr ]
+ MoveFinder.js:85
+Found a move: Count: 31 Time: 4.128 seconds MoveFinder.js:84
+(H'F2HF2) ==>
+    [ fr -> br -> fl -> fr ]
+ MoveFinder.js:85
+Found a move: Count: 32 Time: 4.153 seconds MoveFinder.js:84
+(H'B2HB2) ==>
+    [ br -> bl -> fl -> br ]
+ MoveFinder.js:85
+Found a move: Count: 33 Time: 4.277 seconds MoveFinder.js:84
+(VU2V'U2) ==>
+    [ fu -> fd -> bu -> fu ]
+ MoveFinder.js:85
+Found a move: Count: 34 Time: 4.304 seconds MoveFinder.js:84
+(VD2V'D2) ==>
+    [ bu -> fd -> bd -> bu ]
+ MoveFinder.js:85
+Found a move: Count: 35 Time: 4.332 seconds MoveFinder.js:84
+(VF2V'F2) ==>
+    [ fu -> fd -> bd -> fu ]
+ MoveFinder.js:85
+Found a move: Count: 36 Time: 4.361 seconds MoveFinder.js:84
+(VB2V'B2) ==>
+    [ fu -> bd -> bu -> fu ]
+ MoveFinder.js:85
+Found a move: Count: 37 Time: 4.686 seconds MoveFinder.js:84
+(V'U2VU2) ==>
+    [ fu -> bu -> bd -> fu ]
+ MoveFinder.js:85
+Found a move: Count: 38 Time: 4.711 seconds MoveFinder.js:84
+(V'D2VD2) ==>
+    [ fu -> bd -> fd -> fu ]
+ MoveFinder.js:85
+Found a move: Count: 39 Time: 4.737 seconds MoveFinder.js:84
+(V'F2VF2) ==>
+    [ fu -> bu -> fd -> fu ]
+ MoveFinder.js:85
+Found a move: Count: 40 Time: 4.765 seconds MoveFinder.js:84
+(V'B2VB2) ==>
+    [ bu -> bd -> fd -> bu ]
+ MoveFinder.js:85
+Found a move: Count: 41 Time: 4.841 seconds MoveFinder.js:84
+(SR2S'R2) ==>
+    [ dr -> ur -> ul -> dr ]
+ MoveFinder.js:85
+Found a move: Count: 42 Time: 4.867 seconds MoveFinder.js:84
+(SL2S'L2) ==>
+    [ dr -> ul -> dl -> dr ]
+ MoveFinder.js:85
+Found a move: Count: 43 Time: 4.892 seconds MoveFinder.js:84
+(SU2S'U2) ==>
+    [ ru -> lu -> ld -> ru ]
+ MoveFinder.js:85
+Found a move: Count: 44 Time: 4.916 seconds MoveFinder.js:84
+(SD2S'D2) ==>
+    [ dr -> ur -> dl -> dr ]
+ MoveFinder.js:85
+Found a move: Count: 45 Time: 5.231 seconds MoveFinder.js:84
+(S'R2SR2) ==>
+    [ dr -> dl -> ur -> dr ]
+ MoveFinder.js:85
+Found a move: Count: 46 Time: 5.257 seconds MoveFinder.js:84
+(S'L2SL2) ==>
+    [ ru -> ld -> lu -> ru ]
+ MoveFinder.js:85
+Found a move: Count: 47 Time: 5.283 seconds MoveFinder.js:84
+(S'U2SU2) ==>
+    [ dr -> ul -> ur -> dr ]
+ MoveFinder.js:85
+Found a move: Count: 48 Time: 5.309 seconds MoveFinder.js:84
+(S'D2SD2) ==>
+    [ dr -> dl -> ul -> dr ]
+ MoveFinder.js:85
+Done! rtest.html:145
+==========================================
+
+
+
+
+
+Cube initialized. cube.js:5
+Found a move: Count: 1 Time: 6.3008999999999995 minutes MoveFinder.js:84
+(RUR'DRU'R'D') ==>
+    [ fru -> fdr -> ldf -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 2 Time: 6.30555 minutes MoveFinder.js:84
+(RUR'D2RU'R'D2) ==>
+    [ fru -> fdr -> bdl -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 3 Time: 6.310833333333333 minutes MoveFinder.js:84
+(RUR'D'RU'R'D) ==>
+    [ fru -> fdr -> rdb -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 4 Time: 6.366833333333333 minutes MoveFinder.js:84
+(RULU'R'UL'U') ==>
+    [ fru -> ful -> drf -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 5 Time: 6.52365 minutes MoveFinder.js:84
+(RUL2U'R'UL2U') ==>
+    [ fru -> lbd -> drf -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 6 Time: 6.6804499999999996 minutes MoveFinder.js:84
+(RUL'U'R'ULU') ==>
+    [ fru -> ldf -> drf -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 7 Time: 8.341133333333334 minutes MoveFinder.js:84
+(RU2R'DRU2R'D') ==>
+    [ dfr -> dlf -> bul -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 8 Time: 8.345766666666666 minutes MoveFinder.js:84
+(RU2R'D2RU2R'D2) ==>
+    [ dfr -> dbl -> bul -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 9 Time: 8.350666666666667 minutes MoveFinder.js:84
+(RU2R'D'RU2R'D) ==>
+    [ dfr -> drb -> bul -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 10 Time: 10.388616666666667 minutes MoveFinder.js:84
+(RU'R'DRUR'D') ==>
+    [ dfr -> dlf -> luf -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 11 Time: 10.3933 minutes MoveFinder.js:84
+(RU'R'D2RUR'D2) ==>
+    [ dfr -> dbl -> luf -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 12 Time: 10.398 minutes MoveFinder.js:84
+(RU'R'D'RUR'D) ==>
+    [ dfr -> drb -> luf -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 13 Time: 10.4456 minutes MoveFinder.js:84
+(RU'LUR'U'L'U) ==>
+    [ fru -> urb -> bdl -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 14 Time: 10.604766666666666 minutes MoveFinder.js:84
+(RU'L2UR'U'L2U) ==>
+    [ fru -> urb -> dfl -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 15 Time: 10.766116666666667 minutes MoveFinder.js:84
+(RU'L'UR'U'LU) ==>
+    [ fru -> urb -> lub -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 16 Time: 12.440966666666666 minutes MoveFinder.js:84
+(RDR'URD'R'U') ==>
+    [ bru -> lbu -> bdr -> bru ]
+ MoveFinder.js:85
+Found a move: Count: 17 Time: 12.445616666666666 minutes MoveFinder.js:84
+(RDR'U2RD'R'U2) ==>
+    [ flu -> bdr -> bru -> flu ]
+ MoveFinder.js:85
+Found a move: Count: 18 Time: 12.4503 minutes MoveFinder.js:84
+(RDR'U'RD'R'U) ==>
+    [ fru -> dbr -> rbu -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 19 Time: 12.555233333333332 minutes MoveFinder.js:84
+(RDLD'R'DL'D') ==>
+    [ bru -> drb -> ldb -> bru ]
+ MoveFinder.js:85
+Found a move: Count: 20 Time: 12.712966666666667 minutes MoveFinder.js:84
+(RDL2D'R'DL2D') ==>
+    [ flu -> rub -> rbd -> flu ]
+ MoveFinder.js:85
+Found a move: Count: 21 Time: 12.872366666666666 minutes MoveFinder.js:84
+(RDL'D'R'DLD') ==>
+    [ bru -> drb -> bul -> bru ]
+ MoveFinder.js:85
+Found a move: Count: 22 Time: 14.535816666666667 minutes MoveFinder.js:84
+(RD2R'URD2R'U') ==>
+    [ dfl -> bur -> lub -> dfl ]
+ MoveFinder.js:85
+Found a move: Count: 23 Time: 14.5405 minutes MoveFinder.js:84
+(RD2R'U2RD2R'U2) ==>
+    [ flu -> dlf -> bru -> flu ]
+ MoveFinder.js:85
+Found a move: Count: 24 Time: 14.54515 minutes MoveFinder.js:84
+(RD2R'U'RD2R'U) ==>
+    [ fru -> ldf -> rbu -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 25 Time: 16.601566666666667 minutes MoveFinder.js:84
+(RD'R'URDR'U') ==>
+    [ bru -> lbu -> dbl -> bru ]
+ MoveFinder.js:85
+Found a move: Count: 26 Time: 16.606183333333334 minutes MoveFinder.js:84
+(RD'R'U2RDR'U2) ==>
+    [ flu -> dbl -> bru -> flu ]
+ MoveFinder.js:85
+Found a move: Count: 27 Time: 16.610783333333334 minutes MoveFinder.js:84
+(RD'R'U'RDR'U) ==>
+    [ fru -> bdl -> rbu -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 28 Time: 16.70338333333333 minutes MoveFinder.js:84
+(RD'LDR'D'L'D) ==>
+    [ dfr -> flu -> bdr -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 29 Time: 16.86028333333333 minutes MoveFinder.js:84
+(RD'L2DR'D'L2D) ==>
+    [ dfr -> ulb -> bdr -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 30 Time: 17.018633333333334 minutes MoveFinder.js:84
+(RD'L'DR'D'LD) ==>
+    [ dfr -> lfd -> bdr -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 31 Time: 18.709733333333336 minutes MoveFinder.js:84
+(RFR'BRF'R'B') ==>
+    [ dfr -> drb -> ldb -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 32 Time: 18.7144 minutes MoveFinder.js:84
+(RFR'B2RF'R'B2) ==>
+    [ dfr -> drb -> ulb -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 33 Time: 18.719033333333336 minutes MoveFinder.js:84
+(RFR'B'RF'R'B) ==>
+    [ dfr -> drb -> rub -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 34 Time: 18.833183333333334 minutes MoveFinder.js:84
+(RFLF'R'FL'F') ==>
+    [ dfr -> dlf -> bdr -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 35 Time: 18.990533333333335 minutes MoveFinder.js:84
+(RFL2F'R'FL2F') ==>
+    [ dfr -> lbu -> bdr -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 36 Time: 19.151400000000002 minutes MoveFinder.js:84
+(RFL'F'R'FLF') ==>
+    [ dfr -> ldb -> bdr -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 37 Time: 20.774966666666668 minutes MoveFinder.js:84
+(RF2R'BRF2R'B') ==>
+    [ flu -> drb -> ldb -> flu ]
+ MoveFinder.js:85
+Found a move: Count: 38 Time: 20.779716666666666 minutes MoveFinder.js:84
+(RF2R'B2RF2R'B2) ==>
+    [ flu -> drb -> ulb -> flu ]
+ MoveFinder.js:85
+Found a move: Count: 39 Time: 20.784566666666667 minutes MoveFinder.js:84
+(RF2R'B'RF2R'B) ==>
+    [ flu -> drb -> rub -> flu ]
+ MoveFinder.js:85
+Found a move: Count: 40 Time: 22.826050000000002 minutes MoveFinder.js:84
+(RF'R'BRFR'B') ==>
+    [ dfl -> rdb -> dlb -> dfl ]
+ MoveFinder.js:85
+Found a move: Count: 41 Time: 22.830616666666668 minutes MoveFinder.js:84
+(RF'R'B2RFR'B2) ==>
+    [ dfl -> rdb -> lub -> dfl ]
+ MoveFinder.js:85
+Found a move: Count: 42 Time: 22.835616666666667 minutes MoveFinder.js:84
+(RF'R'B'RFR'B) ==>
+    [ dfl -> rdb -> urb -> dfl ]
+ MoveFinder.js:85
+Found a move: Count: 43 Time: 22.93978333333333 minutes MoveFinder.js:84
+(RF'LFR'F'L'F) ==>
+    [ fru -> ubl -> drf -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 44 Time: 23.096600000000002 minutes MoveFinder.js:84
+(RF'L2FR'F'L2F) ==>
+    [ fru -> bdl -> drf -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 45 Time: 23.252466666666667 minutes MoveFinder.js:84
+(RF'L'FR'F'LF) ==>
+    [ fru -> lfu -> drf -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 46 Time: 24.865983333333336 minutes MoveFinder.js:84
+(RBR'FRB'R'F') ==>
+    [ fru -> ful -> rbu -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 47 Time: 24.870633333333334 minutes MoveFinder.js:84
+(RBR'F2RB'R'F2) ==>
+    [ fru -> fld -> rbu -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 48 Time: 24.8754 minutes MoveFinder.js:84
+(RBR'F'RB'R'F) ==>
+    [ fru -> fdr -> rbu -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 49 Time: 25.03398333333333 minutes MoveFinder.js:84
+(RBLB'R'BL'B') ==>
+    [ fru -> urb -> ubl -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 50 Time: 25.189816666666665 minutes MoveFinder.js:84
+(RBL2B'R'BL2B') ==>
+    [ fru -> urb -> ldf -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 51 Time: 25.34535 minutes MoveFinder.js:84
+(RBL'B'R'BLB') ==>
+    [ fru -> urb -> lfu -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 52 Time: 26.906866666666666 minutes MoveFinder.js:84
+(RB2R'FRB2R'F') ==>
+    [ fru -> ful -> dlb -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 53 Time: 26.91146666666667 minutes MoveFinder.js:84
+(RB2R'F2RB2R'F2) ==>
+    [ fru -> fld -> dlb -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 54 Time: 26.91668333333333 minutes MoveFinder.js:84
+(RB2R'F'RB2R'F) ==>
+    [ fru -> fdr -> dlb -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 55 Time: 28.945899999999998 minutes MoveFinder.js:84
+(RB'R'FRBR'F') ==>
+    [ fru -> ful -> lub -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 56 Time: 28.950483333333334 minutes MoveFinder.js:84
+(RB'R'F2RBR'F2) ==>
+    [ fru -> fld -> lub -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 57 Time: 28.95521666666667 minutes MoveFinder.js:84
+(RB'R'F'RBR'F) ==>
+    [ fru -> fdr -> lub -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 58 Time: 29.104783333333334 minutes MoveFinder.js:84
+(RB'LBR'B'L'B) ==>
+    [ dfl -> urb -> brd -> dfl ]
+ MoveFinder.js:85
+Found a move: Count: 59 Time: 29.2609 minutes MoveFinder.js:84
+(RB'L2BR'B'L2B) ==>
+    [ flu -> ubr -> bdr -> flu ]
+ MoveFinder.js:85
+Found a move: Count: 60 Time: 29.416533333333334 minutes MoveFinder.js:84
+(RB'L'BR'B'LB) ==>
+    [ bru -> drb -> dbl -> bru ]
+ MoveFinder.js:85
+Found a move: Count: 61 Time: 37.17036666666667 minutes MoveFinder.js:84
+(R2ULU'R2UL'U') ==>
+    [ fru -> ful -> brd -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 62 Time: 37.32501666666667 minutes MoveFinder.js:84
+(R2UL2U'R2UL2U') ==>
+    [ fru -> lbd -> brd -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 63 Time: 37.480583333333335 minutes MoveFinder.js:84
+(R2UL'U'R2ULU') ==>
+    [ fru -> ldf -> brd -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 64 Time: 41.22656666666667 minutes MoveFinder.js:84
+(R2U'LUR2U'L'U) ==>
+    [ dfr -> ubr -> bld -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 65 Time: 41.38301666666667 minutes MoveFinder.js:84
+(R2U'L2UR2U'L2U) ==>
+    [ dfr -> ubr -> dlf -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 66 Time: 41.54006666666667 minutes MoveFinder.js:84
+(R2U'L'UR2U'LU) ==>
+    [ dfr -> ubr -> lbu -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 67 Time: 43.320100000000004 minutes MoveFinder.js:84
+(R2DLD'R2DL'D') ==>
+    [ fru -> brd -> bdl -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 68 Time: 43.47606666666666 minutes MoveFinder.js:84
+(R2DL2D'R2DL2D') ==>
+    [ fru -> brd -> lfu -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 69 Time: 43.63455 minutes MoveFinder.js:84
+(R2DL'D'R2DLD') ==>
+    [ fru -> brd -> lub -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 70 Time: 47.376333333333335 minutes MoveFinder.js:84
+(R2D'LDR2D'L'D) ==>
+    [ dfr -> flu -> ubr -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 71 Time: 47.5331 minutes MoveFinder.js:84
+(R2D'L2DR2D'L2D) ==>
+    [ dfr -> ulb -> ubr -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 72 Time: 47.689550000000004 minutes MoveFinder.js:84
+(R2D'L'DR2D'LD) ==>
+    [ dfr -> lfd -> ubr -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 73 Time: 49.46431666666667 minutes MoveFinder.js:84
+(R2FLF'R2FL'F') ==>
+    [ dfr -> dlf -> ubr -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 74 Time: 49.62206666666667 minutes MoveFinder.js:84
+(R2FL2F'R2FL2F') ==>
+    [ dfr -> lbu -> ubr -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 75 Time: 49.77688333333333 minutes MoveFinder.js:84
+(R2FL'F'R2FLF') ==>
+    [ dfr -> ldb -> ubr -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 76 Time: 53.54605 minutes MoveFinder.js:84
+(R2F'LFR2F'L'F) ==>
+    [ fru -> ubl -> brd -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 77 Time: 53.70245 minutes MoveFinder.js:84
+(R2F'L2FR2F'L2F) ==>
+    [ fru -> bdl -> brd -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 78 Time: 53.85776666666666 minutes MoveFinder.js:84
+(R2F'L'FR2F'LF) ==>
+    [ fru -> lfu -> brd -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 79 Time: 55.62733333333333 minutes MoveFinder.js:84
+(R2BLB'R2BL'B') ==>
+    [ dfr -> ubr -> ulb -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 80 Time: 55.78196666666667 minutes MoveFinder.js:84
+(R2BL2B'R2BL2B') ==>
+    [ dfr -> ubr -> lfd -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 81 Time: 55.93685 minutes MoveFinder.js:84
+(R2BL'B'R2BLB') ==>
+    [ dfr -> ubr -> luf -> dfr ]
+ MoveFinder.js:85
+Found a move: Count: 82 Time: 59.68045 minutes MoveFinder.js:84
+(R2B'LBR2B'L'B) ==>
+    [ fru -> brd -> dfl -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 83 Time: 59.83606666666667 minutes MoveFinder.js:84
+(R2B'L2BR2B'L2B) ==>
+    [ fru -> brd -> ful -> fru ]
+ MoveFinder.js:85
+Found a move: Count: 84 Time: 59.9927 minutes MoveFinder.js:84
+(R2B'L'BR2B'LB) ==>
+    [ fru -> brd -> lbd -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.1267241666666665 hours MoveFinder.js:84
+(R'URDR'U'RD') ==>
+    [ dfr -> lbu -> drb -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.126801111111111 hours MoveFinder.js:84
+(R'URD2R'U'RD2) ==>
+    [ dfl -> lub -> dbr -> dfl ]
+ MoveFinder.js:85
+Found a move: Time: 1.126881388888889 hours MoveFinder.js:84
+(R'URD'R'U'RD) ==>
+    [ bdr -> ldb -> ulb -> bdr ]
+ MoveFinder.js:85
+Found a move: Time: 1.129725 hours MoveFinder.js:84
+(R'ULU'RUL'U') ==>
+    [ fru -> ful -> urb -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.1323027777777777 hours MoveFinder.js:84
+(R'UL2U'RUL2U') ==>
+    [ fru -> lbd -> urb -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.1348852777777776 hours MoveFinder.js:84
+(R'UL'U'RULU') ==>
+    [ fru -> ldf -> urb -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.1605897222222221 hours MoveFinder.js:84
+(R'U2RDR'U2RD') ==>
+    [ dfr -> flu -> drb -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.1606691666666664 hours MoveFinder.js:84
+(R'U2RD2R'U2RD2) ==>
+    [ flu -> drb -> dlf -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 1.160746388888889 hours MoveFinder.js:84
+(R'U2RD'R'U2RD) ==>
+    [ flu -> drb -> dbl -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 1.1949238888888887 hours MoveFinder.js:84
+(R'U'RDR'URD') ==>
+    [ dfr -> rub -> drb -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.1950044444444443 hours MoveFinder.js:84
+(R'U'RD2R'URD2) ==>
+    [ dfl -> rbu -> dbr -> dfl ]
+ MoveFinder.js:85
+Found a move: Time: 1.1950866666666669 hours MoveFinder.js:84
+(R'U'RD'R'URD) ==>
+    [ bru -> bdr -> ldb -> bru ]
+ MoveFinder.js:85
+Found a move: Time: 1.1978125000000002 hours MoveFinder.js:84
+(R'U'LURU'L'U) ==>
+    [ bru -> ldb -> drb -> bru ]
+ MoveFinder.js:85
+Found a move: Time: 1.2004216666666667 hours MoveFinder.js:84
+(R'U'L2URU'L2U) ==>
+    [ dfl -> brd -> urb -> dfl ]
+ MoveFinder.js:85
+Found a move: Time: 1.2030108333333334 hours MoveFinder.js:84
+(R'U'L'URU'LU) ==>
+    [ bru -> bul -> drb -> bru ]
+ MoveFinder.js:85
+Found a move: Time: 1.2289758333333334 hours MoveFinder.js:84
+(R'DRUR'D'RU') ==>
+    [ fru -> rbu -> dfl -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.2290597222222222 hours MoveFinder.js:84
+(R'DRU2R'D'RU2) ==>
+    [ fru -> blu -> dfl -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.2291452777777778 hours MoveFinder.js:84
+(R'DRU'R'D'RU) ==>
+    [ fru -> lfu -> dfl -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.2327708333333334 hours MoveFinder.js:84
+(R'DLD'RDL'D') ==>
+    [ dfr -> bdr -> bld -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.2353730555555555 hours MoveFinder.js:84
+(R'DL2D'RDL2D') ==>
+    [ dfr -> bdr -> luf -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.2379838888888888 hours MoveFinder.js:84
+(R'DL'D'RDLD') ==>
+    [ dfr -> bdr -> lbu -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.2631161111111109 hours MoveFinder.js:84
+(R'D2RUR'D2RU') ==>
+    [ fru -> rbu -> dlb -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.2631938888888887 hours MoveFinder.js:84
+(R'D2RU2R'D2RU2) ==>
+    [ fru -> blu -> dlb -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.2632711111111112 hours MoveFinder.js:84
+(R'D2RU'R'D2RU) ==>
+    [ fru -> lfu -> dlb -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.2970694444444446 hours MoveFinder.js:84
+(R'D'RUR'DRU') ==>
+    [ fru -> rbu -> fdr -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.2971455555555556 hours MoveFinder.js:84
+(R'D'RU2R'DRU2) ==>
+    [ fru -> blu -> fdr -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.297223611111111 hours MoveFinder.js:84
+(R'D'RU'R'DRU) ==>
+    [ fru -> lfu -> fdr -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.3007052777777777 hours MoveFinder.js:84
+(R'D'LDRD'L'D) ==>
+    [ fru -> drf -> ful -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.3032966666666668 hours MoveFinder.js:84
+(R'D'L2DRD'L2D) ==>
+    [ fru -> drf -> ubl -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.305911111111111 hours MoveFinder.js:84
+(R'D'L'DRD'LD) ==>
+    [ fru -> drf -> ldf -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.3314677777777777 hours MoveFinder.js:84
+(R'FRBR'F'RB') ==>
+    [ flu -> ubr -> rbd -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 1.331544722222222 hours MoveFinder.js:84
+(R'FRB2R'F'RB2) ==>
+    [ flu -> ubr -> dbl -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 1.3316252777777777 hours MoveFinder.js:84
+(R'FRB'R'F'RB) ==>
+    [ flu -> ubr -> lbu -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 1.3353963888888887 hours MoveFinder.js:84
+(R'FLF'RFL'F') ==>
+    [ fru -> drf -> dfl -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.3379669444444444 hours MoveFinder.js:84
+(R'FL2F'RFL2F') ==>
+    [ fru -> drf -> lub -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.3405311111111111 hours MoveFinder.js:84
+(R'FL'F'RFLF') ==>
+    [ fru -> drf -> lbd -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.3653066666666667 hours MoveFinder.js:84
+(R'F2RBR'F2RB') ==>
+    [ dfl -> bur -> brd -> dfl ]
+ MoveFinder.js:85
+Found a move: Time: 1.3653830555555555 hours MoveFinder.js:84
+(R'F2RB2R'F2RB2) ==>
+    [ dfl -> bur -> bdl -> dfl ]
+ MoveFinder.js:85
+Found a move: Time: 1.3654605555555555 hours MoveFinder.js:84
+(R'F2RB'R'F2RB) ==>
+    [ dfl -> bur -> blu -> dfl ]
+ MoveFinder.js:85
+Found a move: Time: 1.3988408333333335 hours MoveFinder.js:84
+(R'F'RBR'FRB') ==>
+    [ fru -> rbu -> dbr -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.398916388888889 hours MoveFinder.js:84
+(R'F'RB2R'FRB2) ==>
+    [ fru -> rbu -> lbd -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.3989947222222223 hours MoveFinder.js:84
+(R'F'RB'R'FRB) ==>
+    [ fru -> rbu -> ubl -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.4026102777777778 hours MoveFinder.js:84
+(R'F'LFRF'L'F) ==>
+    [ fru -> ubl -> urb -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.4051900000000002 hours MoveFinder.js:84
+(R'F'L2FRF'L2F) ==>
+    [ fru -> bdl -> urb -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.407758611111111 hours MoveFinder.js:84
+(R'F'L'FRF'LF) ==>
+    [ fru -> lfu -> urb -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.4325108333333332 hours MoveFinder.js:84
+(R'BRFR'B'RF') ==>
+    [ fru -> lbd -> fdr -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.4325872222222222 hours MoveFinder.js:84
+(R'BRF2R'B'RF2) ==>
+    [ dfr -> ufl -> bld -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.4326644444444443 hours MoveFinder.js:84
+(R'BRF'R'B'RF) ==>
+    [ dfr -> lfd -> bld -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.4371783333333332 hours MoveFinder.js:84
+(R'BLB'RBL'B') ==>
+    [ bru -> lbu -> drb -> bru ]
+ MoveFinder.js:85
+Found a move: Time: 1.4397533333333332 hours MoveFinder.js:84
+(R'BL2B'RBL2B') ==>
+    [ dfl -> rdb -> rbu -> dfl ]
+ MoveFinder.js:85
+Found a move: Time: 1.4423700000000002 hours MoveFinder.js:84
+(R'BL'B'RBLB') ==>
+    [ flu -> rbd -> rub -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 1.466308888888889 hours MoveFinder.js:84
+(R'B2RFR'B2RF') ==>
+    [ fru -> ubl -> fdr -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.4663905555555556 hours MoveFinder.js:84
+(R'B2RF2R'B2RF2) ==>
+    [ dfr -> ufl -> bul -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.4664683333333335 hours MoveFinder.js:84
+(R'B2RF'R'B2RF) ==>
+    [ dfr -> lfd -> bul -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.5000566666666666 hours MoveFinder.js:84
+(R'B'RFR'BRF') ==>
+    [ fru -> rdb -> fdr -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.500135 hours MoveFinder.js:84
+(R'B'RF2R'BRF2) ==>
+    [ dfr -> ufl -> drb -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.5002102777777777 hours MoveFinder.js:84
+(R'B'RF'R'BRF) ==>
+    [ dfr -> lfd -> drb -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.5045952777777778 hours MoveFinder.js:84
+(R'B'LBRB'L'B) ==>
+    [ dfr -> bdr -> dlf -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.5071897222222221 hours MoveFinder.js:84
+(R'B'L2BRB'L2B) ==>
+    [ dfr -> bdr -> flu -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.5097899999999997 hours MoveFinder.js:84
+(R'B'L'BRB'LB) ==>
+    [ dfr -> bdr -> ldb -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.6352016666666667 hours MoveFinder.js:84
+(LURU'L'UR'U') ==>
+    [ bru -> dbl -> bul -> bru ]
+ MoveFinder.js:85
+Found a move: Time: 1.6377805555555556 hours MoveFinder.js:84
+(LUR2U'L'UR2U') ==>
+    [ dfr -> bld -> ulb -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.6403622222222223 hours MoveFinder.js:84
+(LUR'U'L'URU') ==>
+    [ bdr -> bld -> ulb -> bdr ]
+ MoveFinder.js:85
+Found a move: Time: 1.6447644444444445 hours MoveFinder.js:84
+(LUL'DLU'L'D') ==>
+    [ bdr -> ulb -> ldb -> bdr ]
+ MoveFinder.js:85
+Found a move: Time: 1.644843888888889 hours MoveFinder.js:84
+(LUL'D2LU'L'D2) ==>
+    [ dfr -> lbu -> dbl -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.6449200000000002 hours MoveFinder.js:84
+(LUL'D'LU'L'D) ==>
+    [ dfl -> lub -> dlb -> dfl ]
+ MoveFinder.js:85
+Found a move: Time: 1.6784930555555555 hours MoveFinder.js:84
+(LU2L'DLU2L'D') ==>
+    [ fru -> dlb -> dbr -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.6785694444444446 hours MoveFinder.js:84
+(LU2L'D2LU2L'D2) ==>
+    [ fru -> dlb -> drf -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.678646388888889 hours MoveFinder.js:84
+(LU2L'D'LU2L'D) ==>
+    [ fru -> dlb -> dfl -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.702646388888889 hours MoveFinder.js:84
+(LU'RUL'U'R'U) ==>
+    [ dfr -> lbu -> luf -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.7052177777777777 hours MoveFinder.js:84
+(LU'R2UL'U'R2U) ==>
+    [ flu -> rbd -> ulb -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 1.7077775 hours MoveFinder.js:84
+(LU'R'UL'U'RU) ==>
+    [ fru -> ubl -> ful -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.712333611111111 hours MoveFinder.js:84
+(LU'L'DLUL'D') ==>
+    [ bru -> ldb -> bdr -> bru ]
+ MoveFinder.js:85
+Found a move: Time: 1.71241 hours MoveFinder.js:84
+(LU'L'D2LUL'D2) ==>
+    [ dfr -> rub -> dbl -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.712493611111111 hours MoveFinder.js:84
+(LU'L'D'LUL'D) ==>
+    [ dfl -> rbu -> dlb -> dfl ]
+ MoveFinder.js:85
+Found a move: Time: 1.7371477777777777 hours MoveFinder.js:84
+(LDRD'L'DR'D') ==>
+    [ dfr -> luf -> lfd -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.7397136111111111 hours MoveFinder.js:84
+(LDR2D'L'DR2D') ==>
+    [ flu -> dlf -> ubr -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 1.7423191666666669 hours MoveFinder.js:84
+(LDR'D'L'DRD') ==>
+    [ fru -> ful -> dfl -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.746003611111111 hours MoveFinder.js:84
+(LDL'ULD'L'U') ==>
+    [ fru -> dfl -> lfu -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.746080277777778 hours MoveFinder.js:84
+(LDL'U2LD'L'U2) ==>
+    [ flu -> bru -> fdl -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 1.7461597222222223 hours MoveFinder.js:84
+(LDL'U'LD'L'U) ==>
+    [ flu -> lbu -> fdl -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 1.779593888888889 hours MoveFinder.js:84
+(LD2L'ULD2L'U') ==>
+    [ fru -> rdb -> lfu -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.779668888888889 hours MoveFinder.js:84
+(LD2L'U2LD2L'U2) ==>
+    [ flu -> bru -> drb -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 1.7797483333333335 hours MoveFinder.js:84
+(LD2L'U'LD2L'U) ==>
+    [ flu -> lbu -> drb -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 1.8043052777777777 hours MoveFinder.js:84
+(LD'RDL'D'R'D) ==>
+    [ dfl -> bdl -> rbu -> dfl ]
+ MoveFinder.js:85
+Found a move: Time: 1.8068636111111112 hours MoveFinder.js:84
+(LD'R2DL'D'R2D) ==>
+    [ fru -> ldf -> lbd -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.8094655555555554 hours MoveFinder.js:84
+(LD'R'DL'D'RD) ==>
+    [ dfl -> bdl -> brd -> dfl ]
+ MoveFinder.js:85
+Found a move: Time: 1.8132516666666667 hours MoveFinder.js:84
+(LD'L'ULDL'U') ==>
+    [ fru -> fdr -> lfu -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.8133291666666664 hours MoveFinder.js:84
+(LD'L'U2LDL'U2) ==>
+    [ dfr -> flu -> bru -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.813408611111111 hours MoveFinder.js:84
+(LD'L'U'LDL'U) ==>
+    [ dfr -> flu -> lbu -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.8388147222222222 hours MoveFinder.js:84
+(LFRF'L'FR'F') ==>
+    [ fru -> lub -> lfu -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.8413883333333334 hours MoveFinder.js:84
+(LFR2F'L'FR2F') ==>
+    [ flu -> bdr -> ulb -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 1.8440091666666667 hours MoveFinder.js:84
+(LFR'F'L'FRF') ==>
+    [ flu -> ubr -> ulb -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 1.8474424999999999 hours MoveFinder.js:84
+(LFL'BLF'L'B') ==>
+    [ flu -> lbu -> ubr -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 1.8475191666666668 hours MoveFinder.js:84
+(LFL'B2LF'L'B2) ==>
+    [ flu -> lbu -> rbd -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 1.8475955555555557 hours MoveFinder.js:84
+(LFL'B'LF'L'B) ==>
+    [ flu -> lbu -> dbl -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 1.8811397222222224 hours MoveFinder.js:84
+(LF2L'BLF2L'B') ==>
+    [ dfr -> bul -> bru -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.8812169444444444 hours MoveFinder.js:84
+(LF2L'B2LF2L'B2) ==>
+    [ dfr -> bul -> bdr -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.8812958333333334 hours MoveFinder.js:84
+(LF2L'B'LF2L'B) ==>
+    [ dfr -> bul -> bld -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.906095 hours MoveFinder.js:84
+(LF'RFL'F'R'F) ==>
+    [ flu -> dlf -> rbd -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 1.908703611111111 hours MoveFinder.js:84
+(LF'R2FL'F'R2F) ==>
+    [ flu -> dlf -> rub -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 1.9112691666666668 hours MoveFinder.js:84
+(LF'R'FL'F'RF) ==>
+    [ dfr -> flu -> dlf -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.914882777777778 hours MoveFinder.js:84
+(LF'L'BLFL'B') ==>
+    [ fru -> ubl -> rbu -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.9149633333333334 hours MoveFinder.js:84
+(LF'L'B2LFL'B2) ==>
+    [ fru -> ubl -> dbr -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.9150408333333333 hours MoveFinder.js:84
+(LF'L'B'LFL'B) ==>
+    [ fru -> ubl -> lbd -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.94069 hours MoveFinder.js:84
+(LBRB'L'BR'B') ==>
+    [ dfl -> bdl -> rdb -> dfl ]
+ MoveFinder.js:85
+Found a move: Time: 1.9432908333333332 hours MoveFinder.js:84
+(LBR2B'L'BR2B') ==>
+    [ fru -> dfl -> bdl -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.9458458333333333 hours MoveFinder.js:84
+(LBR'B'L'BRB') ==>
+    [ dfr -> dlf -> bld -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.9485430555555554 hours MoveFinder.js:84
+(LBL'FLB'L'F') ==>
+    [ dfr -> bld -> lfd -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.9486183333333331 hours MoveFinder.js:84
+(LBL'F2LB'L'F2) ==>
+    [ fru -> lbd -> fld -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.9486980555555558 hours MoveFinder.js:84
+(LBL'F'LB'L'F) ==>
+    [ flu -> ldb -> fdl -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 1.982313888888889 hours MoveFinder.js:84
+(LB2L'FLB2L'F') ==>
+    [ dfr -> rub -> lfd -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 1.9823950000000001 hours MoveFinder.js:84
+(LB2L'F2LB2L'F2) ==>
+    [ fru -> urb -> fld -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 1.982472777777778 hours MoveFinder.js:84
+(LB2L'F'LB2L'F) ==>
+    [ flu -> ubr -> fdl -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 2.0080555555555555 hours MoveFinder.js:84
+(LB'RBL'B'R'B) ==>
+    [ fru -> lbd -> lub -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 2.0106644444444446 hours MoveFinder.js:84
+(LB'R2BL'B'R2B) ==>
+    [ dfr -> ldb -> lbu -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 2.0132430555555554 hours MoveFinder.js:84
+(LB'R'BL'B'RB) ==>
+    [ bru -> ldb -> lbu -> bru ]
+ MoveFinder.js:85
+Found a move: Time: 2.016099722222222 hours MoveFinder.js:84
+(LB'L'FLBL'F') ==>
+    [ dfr -> drb -> lfd -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 2.0161755555555554 hours MoveFinder.js:84
+(LB'L'F2LBL'F2) ==>
+    [ fru -> rdb -> fld -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 2.016252222222222 hours MoveFinder.js:84
+(LB'L'F'LBL'F) ==>
+    [ flu -> rbd -> fdl -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 2.1419705555555555 hours MoveFinder.js:84
+(L2URU'L2UR'U') ==>
+    [ dfl -> ubl -> rbu -> dfl ]
+ MoveFinder.js:85
+Found a move: Time: 2.1445486111111114 hours MoveFinder.js:84
+(L2UR2U'L2UR2U') ==>
+    [ dfr -> dlf -> ulb -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 2.1471216666666666 hours MoveFinder.js:84
+(L2UR'U'L2URU') ==>
+    [ dfl -> ubl -> brd -> dfl ]
+ MoveFinder.js:85
+Found a move: Time: 2.2092675 hours MoveFinder.js:84
+(L2U'RUL2U'R'U) ==>
+    [ dfr -> ldb -> luf -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 2.2118455555555556 hours MoveFinder.js:84
+(L2U'R2UL2U'R2U) ==>
+    [ flu -> rbd -> bld -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 2.214408611111111 hours MoveFinder.js:84
+(L2U'R'UL2U'RU) ==>
+    [ fru -> bdl -> ful -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 2.2439047222222226 hours MoveFinder.js:84
+(L2DRD'L2DR'D') ==>
+    [ dfr -> lbu -> lfd -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 2.246481111111111 hours MoveFinder.js:84
+(L2DR2D'L2DR2D') ==>
+    [ dfl -> urb -> ubl -> dfl ]
+ MoveFinder.js:85
+Found a move: Time: 2.2490697222222225 hours MoveFinder.js:84
+(L2DR'D'L2DRD') ==>
+    [ fru -> ubl -> dfl -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 2.311115 hours MoveFinder.js:84
+(L2D'RDL2D'R'D) ==>
+    [ flu -> bld -> rub -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 2.313688611111111 hours MoveFinder.js:84
+(L2D'R2DL2D'R2D) ==>
+    [ fru -> lfu -> lbd -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 2.3162775 hours MoveFinder.js:84
+(L2D'R'DL2D'RD) ==>
+    [ flu -> bld -> bdr -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 2.3457155555555556 hours MoveFinder.js:84
+(L2FRF'L2FR'F') ==>
+    [ fru -> lbd -> lfu -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 2.3482991666666666 hours MoveFinder.js:84
+(L2FR2F'L2FR2F') ==>
+    [ flu -> bdr -> bld -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 2.3508880555555556 hours MoveFinder.js:84
+(L2FR'F'L2FRF') ==>
+    [ flu -> ubr -> bld -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 2.413031111111111 hours MoveFinder.js:84
+(L2F'RFL2F'R'F) ==>
+    [ dfl -> rdb -> ubl -> dfl ]
+ MoveFinder.js:85
+Found a move: Time: 2.4156152777777775 hours MoveFinder.js:84
+(L2F'R2FL2F'R2F) ==>
+    [ dfl -> rbu -> ubl -> dfl ]
+ MoveFinder.js:85
+Found a move: Time: 2.41818 hours MoveFinder.js:84
+(L2F'R'FL2F'RF) ==>
+    [ dfr -> ulb -> dlf -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 2.447545 hours MoveFinder.js:84
+(L2BRB'L2BR'B') ==>
+    [ flu -> bld -> rbd -> flu ]
+ MoveFinder.js:85
+Found a move: Time: 2.4501252777777776 hours MoveFinder.js:84
+(L2BR2B'L2BR2B') ==>
+    [ fru -> ful -> bdl -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 2.4527041666666665 hours MoveFinder.js:84
+(L2BR'B'L2BRB') ==>
+    [ dfr -> flu -> bld -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 2.51481 hours MoveFinder.js:84
+(L2B'RBL2B'R'B) ==>
+    [ fru -> ldf -> lub -> fru ]
+ MoveFinder.js:85
+Found a move: Time: 2.5173969444444446 hours MoveFinder.js:84
+(L2B'R2BL2B'R2B) ==>
+    [ dfr -> lfd -> lbu -> dfr ]
+ MoveFinder.js:85
+Found a move: Time: 2.5199844444444444 hours MoveFinder.js:84
+(L2B'R'BL2B'RB) ==>
+    [ dfl -> ubl -> urb -> dfl ]
+ MoveFinder.js:85

@@ -1,0 +1,10 @@
+(RD'R'U2RDR'U2) ==>
+    [ flu -> dbl -> bru -> flu ]
+
+(L2D'RDL2D'R'D) ==>
+    [ flu -> bld -> rub -> flu ]
+
+
+(RD'R'U2RDR'U2  D'RDL2D'R'DL2) ==>
+    [ flu -> ufl ]
+    [ bru -> rub ]

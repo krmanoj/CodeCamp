@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<title>Easy JavaScript Testing </title>  
+    <style>  
+        .pass:before {  
+            content: 'PASS: ';  
+            color:  blue;  
+            font-weight: bold;  
+        }  
+          
+        .fail:before {  
+            content: 'FAIL: ';  
+            color: red;  
+            font-weight: bold;  
+              
+        }  
+    </style>  
+</head>
+<body>
+
+<ul id="output"></ul>  
+      
+<script>  
+var output = document.getElementById('output'); 
+var testNum = 0;
+var module; // should be set by the module
+  
+function assert( outcome, description ) {
+	testNum++;
+	
+    var li = document.createElement('li');  
+    li.className = outcome ? 'pass' : 'fail';  
+    li.appendChild( document.createTextNode( "Module: " + module + " Test# " + testNum + "." + description ) );  
+      
+    output.appendChild(li);  
+};  
+</script>  
+
+<script type="text/javascript" src="global.js"></script>
+<script type="text/javascript" src="color.js"></script>
+<script type="text/javascript" src="move.js"></script>
+<script type="text/javascript" src="atom.js"></script>
+<script type="text/javascript" src="center.js"></script>
+<script type="text/javascript" src="edge.js"></script>
+<script type="text/javascript" src="corner.js"></script>
+<script type="text/javascript" src="movesequence.js"></script>
+<script type="text/javascript" src="side.js"></script>
+<script type="text/javascript" src="cube.js"></script>
+<script type="text/javascript" src="cubeDisplay.js"></script>
+<script type="text/javascript" src="point.js"></script>
+<script type="text/javascript" src="MoveFinder.js"></script>
+
+<script type="text/javascript" src="testSide.js"></script>
+
+</body>
+</html>
