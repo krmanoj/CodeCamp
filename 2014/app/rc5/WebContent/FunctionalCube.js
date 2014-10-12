@@ -2,7 +2,7 @@
  * 
  */
 
-FunctionalCube = function () {
+Rubik.FunctionalCube = function () {
 	
 	// faces: 
 	//   0 -> front
@@ -372,6 +372,29 @@ FunctionalCube = function () {
 	this.applySequence = applySequence;
 	this.showMoved = showMoved;
 	this.applyAndShow = applyAndShow;
+	
+	this.runTest = function () {
+		applyAndShow("FF'FFF2F'FF2FFFFF2"); resetCube();
+		applyAndShow("BB'BBB2B'BB2BBBBB2"); resetCube();
+		applyAndShow("RR'RRR2R'RR2RRRRR2"); resetCube();
+		applyAndShow("LL'LLL2L'LL2LLLLL2"); resetCube();
+		applyAndShow("UU'UUU2U'UU2UUUUU2"); resetCube();
+		applyAndShow("DD'DDD2D'DD2DDDDD2"); resetCube();
+
+		applyAndShow("HH'HHH2H'HH2HHHHH2"); resetCube();
+		applyAndShow("VV'VVV2V'VV2VVVVV2"); resetCube();
+		applyAndShow("SS'SSS2S'SS2SSSSS2"); resetCube();
+
+		
+		applyAndShow("RD'R'U2RDR'U2"); resetCube();
+		applyAndShow("RD'R'U2RDR'U2  D'RDL2D'R'DL2"); resetCube();
+		
+		applyAndShow("V'F2VF2"); resetCube();
+		
+		applyAndShow("RFBU2F2U'FUFU2B'R'F'"); resetCube();
+
+
+	};
 	
 	
 	/************************ MOVE FINDER ALGO ***************/
