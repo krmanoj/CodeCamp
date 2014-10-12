@@ -39,7 +39,7 @@ Rubik.Atom = function (sides)
 		var side = this.startPos.charAt(i);
 		this.movement[side] = side;
 		this.newSides.push(side);
-		this.originalUID += Rubik.Side[side].numId
+		this.originalUID += Rubik.Side[side].numId;
 	}
 	
 	//this.newPos = this.startPos;  define if we need
@@ -129,7 +129,7 @@ Rubik.Atom.prototype.toString = function() {
 
 Rubik.Atom.prototype.details = function() {
 	return this.toString();
-}
+};
 
 
 Rubik.Atom.prototype.hasMoved = function() {
@@ -261,7 +261,7 @@ Rubik.Atom.prototype.newPos = function (origPos) {
 		newPos += this.movement[origPos.charAt(i)];
 	}
 	return newPos;
-}
+};
 
 // Reset the position to original
 Rubik.Atom.prototype.reset = function() {
